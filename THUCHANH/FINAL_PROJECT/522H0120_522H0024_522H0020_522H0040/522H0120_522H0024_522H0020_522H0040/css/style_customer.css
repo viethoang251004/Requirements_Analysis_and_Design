@@ -1,0 +1,134 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.back_container
+{
+    margin-top: 3rem;
+}
+.back
+{
+    width: fit-content;
+    margin-left: 4rem;
+    padding: 10px 20px; /* Tăng khoảng cách giữa viền và nội dung */
+    border-radius: 12px;
+    border: 3px solid rgb(38, 247, 184);
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px; /* Giảm kích thước font */
+    background: rgb(126, 255, 212);
+}
+
+.section_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Sử dụng viewport height cho chiều cao */
+}
+
+.panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px; /* Sử dụng max-width thay vì width cố định */
+    height: auto; /* Thay đổi chiều cao thành tự động */
+    border: 3px solid #01e29f;
+    border-radius: 30px; /* Giảm độ cong của góc */
+    margin: 20px;
+    padding: 20px; /* Thêm padding cho khoảng cách giữa viền và nội dung */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Điều chỉnh bóng đổ */
+}
+
+.left-column {
+    margin-bottom: auto;
+}
+
+.right-column {
+    margin-bottom: auto; /* Thay vì sử dụng giá trị cố định, sử dụng auto để căn giữa */
+    margin-left: 3rem;
+}
+
+.ava {
+    width: 200px; /* Giảm kích thước hình ảnh */
+    height: 200px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-right: 20px; /* Tăng khoảng cách giữa hình ảnh và nội dung */
+}
+
+.name {
+    font-weight: bold;
+    font-size: 24px; /* Giảm kích thước font */
+}
+
+.phone, .address {
+    font-size: 18px; /* Giảm kích thước font */
+    margin-top: 10px; /* Giảm khoảng cách giữa các mục */
+}
+
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #01e29f;
+    font-weight: bold;
+    margin-top: 10px; /* Giảm khoảng cách giữa các mục */
+}
+
+.link:hover, .link:active {
+    color: blue;
+    transition: color 0.3s;
+}
+
+.product {
+    font-size: 20px; /* Giảm kích thước font */
+    margin-top: 20px;
+}
+
+.button-container {
+    display: flex;
+    margin-top: 20px; /* Giảm khoảng cách giữa các nút */
+}
+
+.accept, .decline {
+    font-size: 16px; /* Giảm kích thước font */
+    padding: 8px 16px; /* Tăng kích thước nút */
+    border-radius: 5px; /* Giảm độ cong của góc */
+    cursor: pointer;
+}
+
+.accept {
+    background-color: #01e29f;
+    color: black;
+    margin-right: 10px;
+    border: none;
+}
+
+.accept:hover {
+    background-color: #00ac78;
+    color: white;
+}
+
+.decline {
+    background-color: red;
+    color: black;
+    border: none;
+}
+
+.decline:hover {
+    background-color: #a00000;
+    color: white;
+}
+
+.message_box {
+    width: fit-content;
+    padding: 10px 20px; /* Tăng khoảng cách giữa viền và nội dung */
+    border-radius: 12px;
+    border: 3px solid rgb(38, 247, 184);
+    margin-top: 20px; /* Tăng khoảng cách giữa hộp thông báo và các mục khác */
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px; /* Giảm kích thước font */
+    background: rgb(126, 255, 212);
+}

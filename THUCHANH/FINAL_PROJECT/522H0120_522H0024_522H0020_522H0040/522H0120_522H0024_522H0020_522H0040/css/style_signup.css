@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: border-box;
+    scroll-padding-top: 2rem;
+}
+
+:root {
+    --main-color: #01e29f;
+    --hover-color: rgba(1, 1, 1, 0);
+    --body-color: rgb(30,30,30);
+    --container-color: #2d2e37;
+    --text-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.container {
+    width: 100%;
+    margin: auto;
+    max-width: 1060px;
+}
+
+.back_container
+{
+    margin-top: 3rem;
+}
+
+.back
+{
+    width: fit-content;
+    margin-left: 4rem;
+    padding: 10px 20px; /* Tăng khoảng cách giữa viền và nội dung */
+    border-radius: 12px;
+    border: 3px solid rgb(38, 247, 184);
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px; /* Giảm kích thước font */
+    background: rgb(126, 255, 212);
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    max-width: 1060px;
+}
+
+
+.logo {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 auto 0 0;
+}
+
+.signup-heading 
+{ 
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.signup_form
+{
+    margin-top: 8.6rem !important;
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid var(--container-color);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+
+.input-title
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-title h4{
+    color: var(--main-color);
+    font-size: 1.2rem;
+}
+
+form input{
+    border: 1.5px solid var(--container-color);
+    border-radius: 20px;
+    padding: 0.4rem;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* form input::autoco */
+.regis-message
+{
+    margin-top: 0.7rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.regis-message a{
+    color: var(--main-color);
+}
+
+button
+{
+    padding: 0.5rem;
+    width: 85%;
+    margin-top: 2.5rem;
+    background: var(--main-color);
+    font-size: 1.2rem;
+    border: transparent;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error-message
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 12px;
+    border: 3px solid rgb(176, 0, 0);
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #000000;
+    font-size: 1.2rem;
+    background: rgb(240, 115, 115);
+}

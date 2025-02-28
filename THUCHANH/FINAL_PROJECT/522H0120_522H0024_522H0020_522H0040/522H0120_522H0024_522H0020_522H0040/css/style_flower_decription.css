@@ -1,0 +1,138 @@
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size :50px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #05f0a9;
+    border-radius : 100px;
+    width :fit-content;
+    margin : 0 auto;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    background:
+        linear-gradient(225deg, #ecedee, transparent 30%),
+        linear-gradient(330deg, rgb(210, 206, 242), transparent 30%),
+        linear-gradient(150deg , #13ffb8, #FEEED3, #e2fae1, powderblue);
+}
+
+.section{
+    display : flex;
+    justify-content: center;                      /* Căn giữa theo chiều ngang */
+    padding-top : 50px;
+    padding-bottom : 100px;
+}
+
+.panel{
+    display : grid;
+    grid-template-columns: 1fr 2fr;
+    width: 1000px;
+    height: 700px;
+    border: 2px solid black;
+    border-radius : 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8); 
+    background:
+        linear-gradient(225deg, #ecedee, transparent 30%),
+        linear-gradient(330deg, rgb(210, 206, 242), transparent 30%),
+        linear-gradient(150deg , #fff0be, #FEEED3, #e2fae1, powderblue);
+    position :relative;
+}
+
+.img-container
+{
+    height: 40%;
+    margin: 2rem;
+}
+.img{
+    width :100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid black; /* Thay đổi viền ảnh */
+    border-radius: 40px;
+}
+
+.name{
+    text-align:center;
+    font-size:xxx-large;
+    font-weight: bold;
+    font-family:Courier New;
+}
+
+.price{
+    text-align: center;
+    font-size: xx-large;
+    font-family:Courier New;
+    font-weight: bold;
+    margin: 20px auto 10px;
+}
+
+.quantity{
+    text-align: center;
+    font-size: xx-large;
+    font-family:Courier New;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.link {
+    text-decoration: none;
+    font-size :30px;
+    color : #01e29f;
+    font-weight : bolder;
+    padding-left:40px;
+    position: absolute; /* Đặt vị trí tuyệt đối */
+    bottom: 0; /* Đặt phần tử ở dưới cùng */
+    padding-bottom: 30px;
+}
+
+.link:hover, .link:active{
+    transition : color 0.3s;
+    color : blue;
+}
+
+.title-description{
+    font-family: 'Courier New', Courier, monospace;
+    font-size :x-large;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #05f0a9;
+    border-radius : 100px;
+    width :fit-content;
+    margin : 0 auto;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    background:
+        linear-gradient(225deg, #ecedee, transparent 30%),
+        linear-gradient(330deg, rgb(210, 206, 242), transparent 30%),
+        linear-gradient(150deg , #13ffb8, #FEEED3, #e2fae1, powderblue);
+}
+
+.text-description{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight : bolder;
+    font-size :larger;
+    text-align : left;
+    margin: 50px;
+}
+.button-container
+{
+    margin-top: 25rem;
+    margin-left: 8rem;
+}
+.button-update
+{
+    margin-right: 5rem;
+    padding: 10px;
+    background-color: #05f0a9;
+    border-radius: 16px;
+    border: solid black;
+    font-size: medium;
+}
+
+.button-delete
+{
+    padding: 10px;
+    background-color: red;
+    border-radius: 16px;
+    border: solid black;
+    font-size: medium;
+}

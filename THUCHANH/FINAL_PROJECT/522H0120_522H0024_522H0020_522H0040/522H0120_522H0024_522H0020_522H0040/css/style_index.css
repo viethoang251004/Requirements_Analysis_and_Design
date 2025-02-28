@@ -1,0 +1,114 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: #01e29f;
+    --hover-color: rgba(1, 1, 1, 0);
+    --body-color: rgb(30,30,30);
+    --container-color: #2d2e37;
+    --text-color: #ffffff;
+}
+a {
+    text-decoration: none;
+    color: inherit; /* Sử dụng màu kế thừa */
+}
+
+a:visited {
+    color: inherit; /* Màu không thay đổi sau khi đã bấm vào */
+}
+
+a:hover {
+    color: inherit; /* Màu không thay đổi khi trỏ chuột qua */
+}
+
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b4b4b4;
+    color: #333;
+}
+
+header {
+    background-color: var(--main-color);
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+.container_title
+{
+    text-align: center;
+    padding: 0;
+    margin: 0 900px 0 0;
+}
+.header_title
+{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 auto 0 0;
+    display: flex;
+}
+.container_avatar
+{
+    margin: 0 auto 0 0;
+    display: flex;
+}
+.avatar
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.login-btn
+{
+    display: flex;
+    color: var(--main-color);
+}
+
+.login-btn a {
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.section_container
+{
+    margin: 5rem 0 0 0;
+}
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
